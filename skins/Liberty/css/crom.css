@@ -1,0 +1,71 @@
+.Liberty {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.Liberty .content-wrapper .liberty-content .liberty-content-header {
+    background-color: #222222;
+}
+
+.Liberty .content-wrapper .liberty-content .liberty-content-header .title>h1 {
+    color: #ffffff;
+}
+
+.Liberty .content-wrapper .liberty-content .liberty-content-main {
+    background-color: #000;
+}
+
+.Liberty .content-wrapper .liberty-footer {
+    background-color: #222222;
+}
+
+.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-footer .label:hover, .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:hover, .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .nav-link:focus, .dropdown-menu .dropdown-item:hover {
+    background-color: #563d7c !important;
+}
+
+/* 우측 aside */
+
+.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item {
+    background-color: #222222;
+}
+
+.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link.active, .Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:hover, .Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:focus, .Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-header .nav .nav-item .nav-link:active {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-content {
+    background-color: #000000;
+}
+
+.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-content .live-recent-list .recent-item {
+    color: #ffffff;
+}
+
+.Liberty .content-wrapper .liberty-sidebar .liberty-right-fixed .live-recent .live-recent-footer {
+    background-color: #222222;
+}
+
+/* 본문 */
+a, a:hover, a:focus, .plainlinks a.external {
+    color: #cc0000;
+}
+
+.plainlinks a.external:hover, .plainlinks a.external:focus {
+    color: #cc0000;
+}
+
+/* 에디터 */
+#editpage-copywarn p {
+    color: #222222;
+}
+
+/* 패널 */
+.oo-ui-panelLayout-framed {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* 로고 */
+.Liberty .nav-wrapper .navbar .navbar-brand {
+    width: 10.5rem;
+}
