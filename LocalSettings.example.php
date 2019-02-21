@@ -124,6 +124,9 @@ $wgDefaultSkin = "liberty";
 # The following skins were automatically enabled:
 wfLoadSkin( 'Liberty' );
 
+# 익스텐션 로드
+wfLoadExtension( 'OpenGraphMeta' );
+
 
 # End of automatically generated settings.
 # Add more configuration options below.
