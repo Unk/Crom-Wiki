@@ -124,6 +124,9 @@ $wgDefaultSkin = "liberty";
 $wgMailgunAPIKey = "key-asdfasdfasdf";
 $wgMailgunDomain = "example.in";
 
+# 시간대 설정
+$wgLocaltimezone = "Asia/Seoul";
+
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'Liberty' );
