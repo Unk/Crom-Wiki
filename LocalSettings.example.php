@@ -120,13 +120,17 @@ $wgDiff3 = "/usr/bin/diff3";
 ## names, ie 'vector', 'monobook':
 $wgDefaultSkin = "liberty";
 
+# 메일건 세팅
+$wgMailgunAPIKey = "key-asdfasdfasdf";
+$wgMailgunDomain = "example.in";
+
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'Liberty' );
 
 # 익스텐션 로드
 wfLoadExtension( 'OpenGraphMeta' );
-
+wfLoadExtension( 'Mailgun' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
