@@ -69,3 +69,16 @@ a, a:hover, a:focus, .plainlinks a.external {
 .Liberty .nav-wrapper .navbar .navbar-brand {
     width: 10.5rem;
 }
+
+/* 입력 */
+textarea {
+    background: transparent;
+}
+
+.editOptions {
+    background: transparent;
+}
+
+#editpage-copywarn p {
+    color: #dddddd;
+}
