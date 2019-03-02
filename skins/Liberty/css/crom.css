@@ -82,3 +82,8 @@ textarea {
 #editpage-copywarn p {
     color: #dddddd;
 }
+
+/* 본문 첫 아이템 미표시 문제 해결 */
+.mw-parser-output *:first-child {
+    width: 100%;
+}
