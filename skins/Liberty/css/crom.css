@@ -89,3 +89,16 @@ textarea {
 {
     width: 100%;
 }
+
+/* 자동 생성 목차에 대한 스타일 재정의 */
+.Liberty .content-wrapper .liberty-content .liberty-content-main .toc .toctitle {
+    background: transparent;
+}
+
+.Liberty .content-wrapper .liberty-content .liberty-content-main .toc ul, .Liberty .content-wrapper .liberty-content .liberty-content-main .toc li {
+    background: transparent;
+}
+
+.Liberty .content-wrapper .liberty-content .liberty-content-main .toc .toctext {
+    color: #ffffff;
+}
