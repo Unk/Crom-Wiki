@@ -106,3 +106,16 @@ textarea {
 .Liberty .content-wrapper .liberty-content .liberty-content-main .toc .toctext {
     color: #ffffff;
 }
+
+/* 외부 링크 디자인 변경 */
+a.external:before {
+    display: none;
+}
+
+a.external:after {
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 0.8em;
+    text-align: center;
+    color: #33b733;
+    content: ' \f08e';
+}
