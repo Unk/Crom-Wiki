@@ -119,3 +119,8 @@ a.external:after {
     color: #33b733;
     content: ' \f08e';
 }
+
+/* 미리보기 안내 영역 */
+.previewnote p {
+    text-indent: 0;
+}
