@@ -134,6 +134,7 @@ wfLoadSkin( 'Liberty' );
 # 익스텐션 로드
 wfLoadExtension( 'OpenGraphMeta' );
 wfLoadExtension( 'Mailgun' );
+wfLoadExtension( 'YouTube' );
 
 # End of automatically generated settings.
 # Add more configuration options below.
