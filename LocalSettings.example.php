@@ -127,6 +127,9 @@ $wgMailgunDomain = "example.in";
 # 시간대 설정
 $wgLocaltimezone = "Asia/Seoul";
 
+# 외부 링크 새창 설정
+$wgExternalLinkTarget = '_blank';
+
 # Enabled skins.
 # The following skins were automatically enabled:
 wfLoadSkin( 'Liberty' );
